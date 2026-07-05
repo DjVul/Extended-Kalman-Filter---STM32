@@ -4,7 +4,7 @@
 
 This project implements a **6-DOF IMU orientation estimation** using an **Extended Kalman Filter (EKF)**. The filter fuses data from a **3-axis gyroscope** and a **3-axis accelerometer** to estimate **Roll and Pitch angles** in real-time.
 
-The firmware is written in C and tested on STM32F3, but the core EKF and matrix math libraries are platform-independent and can be easily ported to any microcontroller (Arduino, ESP32, etc.). Code is commented step by step so someone who didn't implement EKF can learn.
+The firmware is written in C and tested on STM32, but the core EKF and matrix math libraries are platform-independent and can be easily ported to any microcontroller (Arduino, ESP32, etc.). Code is commented step by step so someone who didn't implement EKF can learn.
 
 ---
 ## How It Works
